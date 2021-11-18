@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+	<header class="header">
+		<button id="btn"><i class="fas fa-bars nav" ></i> </button>
+		<div class="header-1">
+			<div class="sidebar">
+		<header>Hospital Details</header>
+				<ul>
+		<li><a href="/register"><i class="fas fa-user-plus icon"></i>admit</a></li>
+        <li><a href="/update"><i class="fas fa-user-edit icon"></i>detail Update</a></li>
+        <li><a href="/delete"><i class="fas fa-user-slash icon"></i>discharge </a></li>
+        <li><a href="/search"><i class="fas fa-search-plus icon"></i>Search details</a></li>
+				</ul>
+			</div>
+			<a href="#" class="logo"> <i class="fas fa-ambulance"></i> Hospital </a>
+	
+			<form action="" class="search-form">
+				<input type="search" name="" placeholder="search here..." id="search-box">
+				<label for="search-box" class="fas fa-search"></label>
+			</form>
+	
+			<div class="icons">
+				<div id="search-btn" class="fas fa-search"></div>
+				<a href="#" class="fas fa-heartbeat"></a>
+				<a href="#" class="fas fa-hand-holding-medical"></a>
+				<div id="login-btn" class="fas fa-user">&nbsp;<span>Login</span></div>
+			</div>
+	
+		</div>
+	
+	
+	</header>
+	<div class="login-container">
+	
+		<div id="close-btn" class="fas fa-times"></div>
+	
+		<form action="/" method="post">
+			<h3>Login</h3>
+			<span>username</span>
+			<input type="email"  class="box" placeholder="enter your email" id="" name="username">
+			<span>password</span>
+			<input type="password" class="box" placeholder="enter your password" id="" name="password">
+		   <button type="submit" class="btn">Login</button>
+		</form>
+	</div>
+	<section class="home" id="home">
+
+		<div class="row">
+	
+			<div class="content">
+				<h3> 75% off</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam deserunt nostrum accusamus. Nam alias sit necessitatibus, aliquid ex minima at!</p>
+				<a class="btn" href="/logout">LogOut</a>
+			</div>
+	
+			<div class="hospital">
+				<div >
+					<a href="#" class="slide"><img src="../css/image/book-1.png" alt=""></a>
+
+	
+					
+				</div>
+			
+			</div>
+	
+		</div>
+	</section>
+	<div class="grid">
+		<div class="image_content">
+			<img src="../css/image/des-1.jpg" alt="">
+		
+			<h3>Doctor&Experience</h3>
+			<p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+			<a href="#">read more </i></a>
+		</div>
+		<div class="image_content">
+			<img src="../css/image/des-2.jpg" alt="">
+	
+			<h3>Doctor&Experience</h3>
+			<p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+			<a href="#">read more</a>
+		</div>
+		<div class="image_content">
+			<img src="../css/image/des-3.jpg" alt="">
+	
+			<h3>Doctor&Experience</h3>
+			<p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+			<a href="#">read more </a>
+		</div>	<div class="image_content">
+			<img src="../css/image/des-4.jpg" alt="">
+	
+			<h3>Doctor&Experience</h3>
+			<p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+			<a href="#">read more</a>
+		</div>
+
+	</div>
+<script src="../css/script.js"></script>
+</body>
+</html>

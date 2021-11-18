@@ -1,0 +1,50 @@
+body{
+    background-image: url(./image/adds.jpg);
+  
+    background-size: 110% 200%;
+
+    color: white;
+    font-size: 20px;
+}
+tr{
+    text-align: center;
+   align-items: center;
+}
+input{
+    outline:none;
+    border: none;
+    padding: 5px;
+}
+td{
+    padding-top: 50px;
+    padding-left: 20px;
+}
+table{
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+button{
+    margin-left: 350px;
+    margin-top: 60px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(5, 1, 1);
+    padding: 6px;
+}
+
+.return{
+   
+    margin: 40%;
+    text-decoration: none;
+    color: red;
+    background-color: black;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}

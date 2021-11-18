@@ -1,0 +1,371 @@
+
+*{
+    font-family:  sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 62.5%;
+    overflow-x: hidden;
+
+  
+}
+.sidebar{
+    position: absolute;
+    height: 376px;
+    top: 0;
+    left: -350px;
+    width: 300px;
+    background-color: #222;
+    border-radius: 5px;
+    text-align: start;
+    overflow: hidden;
+    border: 5px solid #063140;
+    border-top: 5px solid lightgoldenrodyellow;
+    transition: .5s;
+  
+   
+}
+.sidebar.active{
+    position: absolute;
+    left:0;
+    top: 78px;
+}
+.sidebar header{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 65px;
+    background: #063140;
+}
+.sidebar ul li a{
+    display: block;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    line-height: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    transition: .9s;
+    text-transform: uppercase;
+
+}
+.sidebar ul li:hover a{
+    padding-left: 10px;
+   
+
+
+}
+#btn{
+    position: absolute;
+    cursor: pointer;
+    font-size:50px ;
+    margin-left: 20px;
+    margin-top:0;
+    color: white;
+    border-radius: 2px;
+    padding: 6px 12px;
+    background-color: #222;
+    
+}
+section{
+    padding:5rem 9%;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+
+.heading span{
+    font-size: 3rem;
+    padding:.5rem 2rem;
+    color:black;
+    background: #fff;
+}
+
+.btn{
+    margin-top: 1rem;
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-size: 1.7rem;
+  color: #f8f8f8;
+  border: 0.2rem solid #29d9d5;
+  border-radius: 5rem;
+  cursor: pointer;
+  background: rgb(14, 14, 14);
+}
+
+.btn:hover {
+    background: #571111;
+    color: rgb(255, 255, 255);
+  }
+  
+
+.header-1{
+    background: #222;
+    padding:1.5rem 9%;
+    display: flex;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+ 
+    
+}
+i{
+font-size: 30px;
+}
+
+ .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color:white;
+}
+
+ .logo i{
+    color:white;
+}
+
+ .search-form{
+    width:50rem;
+    height:5rem;
+    border:lightslategray;
+    overflow: hidden;
+    background:#fff;
+    display:flex;
+    align-items: center;
+    border-radius: .5rem;
+}
+
+ .search-form input{
+    font-size: 1.6rem;
+    padding:0 1.2rem;
+    height:100%;
+    width:100%;
+    text-transform: none;
+    color:black;
+}
+
+ .search-form label{
+    font-size: 2.5rem;
+    padding-right: 1.5rem;
+    color:black;
+    cursor: pointer;
+}
+
+ .search-form label:hover{
+    color:green;
+}
+
+ .icons div,
+ .icons a{
+    font-size: 2.5rem;
+    margin-left: 1.5rem;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+ .icons div:hover,
+ .icons a:hover{
+    color:orange;
+}
+
+#search-btn{
+    display: none;
+}
+
+
+
+
+.login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:rgba(255,255,255,.9);
+    position:fixed;
+    top:0; right:-105%;
+    z-index: 10000;
+    height:100%;
+    width:100%;
+}
+
+.login-container.active{
+    right:0;
+}
+
+.login-container form{
+    background:#fff;
+ 
+    width:40rem;
+    padding:2rem;
+  
+    border-radius: .5rem;
+    margin:2rem;
+}
+
+.login-container form h3{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+  
+    text-align: center;
+}
+
+.login-container form span{
+    display: block;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.login-container form .box{
+    width: 100%;
+    margin:.7rem 0;
+    font-size: 1.6rem;
+    border-radius: .5rem;
+    padding:1rem 1.2rem;
+    color:black;
+    text-transform: none;
+}
+
+.login-container form .checkbox{
+    display:flex;
+    align-items: center;
+    gap:.5rem;
+    padding:1rem 0;
+}
+
+.login-container form .checkbox label{
+    font-size: 1.5rem;
+    color:black;
+    cursor: pointer;
+}
+
+.login-container form .btn{
+    text-align: center;
+    width:100%;
+    margin:1.5rem 0;
+}
+
+.login-container form p{
+    padding-top: .8rem;
+    color:black;
+    font-size: 1.5rem;
+}
+
+.login-container form p a{
+    color:black;
+    text-decoration: underline;
+}
+
+.login-container #close-btn{
+    position: absolute;
+    top:1.5rem; right:2.5rem;
+    font-size: 5rem;
+    color:black;
+    cursor: pointer;
+}
+body{
+    background: linear-gradient(rgba(65, 61, 61, 0.534), rgba(44, 42, 42, 0.479)), url(../css/image/home-bg.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+ .row{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+ .row .content{
+    flex:1 1 42rem;
+    padding-left: 170px;
+}
+img{
+    color: black;
+
+}
+
+ .row .hospital{
+    flex:1 1 42rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+ .row .hospital a img{
+    height: 25rem;
+}
+
+ .row .hospital a:hover img{
+    transform: scale(.9);
+}
+
+ .row .hospital .stand{
+    width:100%;
+    margin-top: -2rem;
+}
+
+ .row .content h3{
+    color:black;
+    font-size: 4.5rem;
+}
+
+ .row .content p{
+    color:black;
+    font-size: 1.4rem;
+    line-height: 2;
+    padding:1rem 0;
+}
+.grid{
+   display: flex;
+   flex-direction: row;
+}
+.grid .image_content img{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin-left: 30px;
+    border-radius: 10px;
+    border:3px solid #222 ;
+
+}
+.grid .image_content img:hover{
+    overflow: hidden;
+    border-radius: 10px;
+    border:3px solid #222 ;
+    transform: scale(.9);
+  
+}
+.grid .image_content p,h3,a{
+    margin-left: 70px;
+    color:white;
+   
+}
+.grid .image_content p{
+    font-size: 15px;
+    color: rgb(255, 151, 151);
+   padding-top: 5px;
+
+}
+.grid .image_content h3{
+    font-size: 20px;
+    padding-top: 2px;
+}
+.grid .image_content a{
+    font-size: 14px;
+    color: red;
+    padding-top: 5px;
+}
+.image_content{
+    margin-bottom: 50px;
+}
+
+

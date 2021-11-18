@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-image: url(./image/search.png);
+    background-repeat: no-repeat;
+    block-size: 100%,100%;
+    color: white;
+}
+div{
+    
+    margin-top: 200px;
+    margin-left: 400px;
+}
+form{
+    text-align: center;
+    margin-right: 750px;
+}
+h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: bold;
+
+}
+input{
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+}
+button{
+    padding:5px ;
+    outline: none;
+    border: 0;
+    border: 5px;
+    background-color: #fff;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+}

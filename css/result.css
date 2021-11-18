@@ -1,0 +1,36 @@
+body{
+    background-image: url(./image/results.png);
+    background-repeat: no-repeat;
+    background-size: 100%,100%;
+}
+a{
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    outline: none;
+   border-radius: 5px;
+   font-size: 30px;
+   text-decoration:none;
+
+}
+.home{
+    text-align: center;
+    align-items: center;
+    margin-top: 80px;
+
+}
+h2{
+    margin-left: 300px;
+    color: rgb(0, 0, 0);
+    word-spacing: 3px;
+    margin-top: 30px;
+}
+h1{
+    text-align: center;
+    margin-top: 70px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    background-color: black;
+    font-size: 30px;
+    padding:15px;
+}
